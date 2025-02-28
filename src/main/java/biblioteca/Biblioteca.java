@@ -1,8 +1,9 @@
-package org.example;
+package biblioteca;
 
 import java.util.ArrayList;
 import java.util.List;
 
+//TODO: Documentar la clase
 public class Biblioteca {
 
     // TODO: Documentar estos atributos
@@ -67,8 +68,8 @@ public class Biblioteca {
     // Este metodo sustituye al metodo anterior. Está disponible desde la
     //  versión 2.0. Hay que documentarlo teniéndolo en cuenta.
     // TODO: Testear este metodo.
-    //  Test: Comprobar la lista de libros que devuelve para un autor existentes.
-    //  Test: Comprobar la lista de libros que devuelve para un autor No existente
+    //  Test 01: Comprobar la lista de libros que devuelve para un autor existentes.
+    //  Test 02: Comprobar la lista de libros que devuelve para un autor No existente
     public List<Libro> encuentraLibrosPorAutor(String autor) {
         List<Libro> listaLibros = null;
         for (Libro libro : libros) {
