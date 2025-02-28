@@ -1,9 +1,11 @@
 package biblioteca;
 
-//TODO: Documentar la clase
+
 public class Libro {
 
-    // TODO: Documentar estos atributos
+    /**
+     *
+     */
     private String titulo;
     private String autor;
     private int anioPublicacion;
